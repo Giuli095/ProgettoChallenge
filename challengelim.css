@@ -1,0 +1,106 @@
+/* immagine di sfondo */
+body{
+  background-image: url("sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#sfondonerotrasparente{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 75%;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+header{
+  text-align: center;
+}
+
+#titolo{
+  font-family: 'Nunito', sans-serif;
+  color: #00FF00;
+}
+
+#logo{
+  width: 20%;
+}
+
+.contenitore{
+  padding: 50px;
+}
+
+/* menù di navigazione */
+#navigazione{
+  background-color: #00FF00;
+  width: 85%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+/* corpo della pagina */
+main{
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+/* info monopattino 1 */
+#monopattino1{
+  width: 85%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.info1{
+  display: inline-block;
+  margin: 0;
+}
+
+.batteria1{
+  width: 300px;
+  height: 30px;
+  background-color: #F5B041;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* info monopattino 2 */
+#monopattino2{
+  width: 85%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.info2{
+  display: inline-block;
+  margin: 0;
+}
+
+.batteria2{
+  width: 550px;
+  height: 30px;
+  background-color: #28B463;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* info monopattino 3 */
+#monopattino3{
+  width: 85%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.info3{
+  display: inline-block;
+  margin: 0;
+}
+
+.batteria3{
+  width: 125px;
+  height: 30px;
+  background-color: #C0392B;
+  border-radius: 10px 10px 10px 10px;
+}
